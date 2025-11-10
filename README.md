@@ -36,50 +36,48 @@ This project is **currently in concept phase** and is intended for **educational
 - **Push buttons** for menu navigation
 
 ---
+## 🔌 Pin Diagram (NodeMCU-32S)
 
-## 🔌 Pin Diagram
+### ESP32 (NodeMCU-32S) + CC1101 (SPI)
 
-### ESP32 + CC1101 (SPI)
+| CC1101 | NodeMCU-32S Pin |
+|--------|-----------------|
+| VCC    | 3.3V            |
+| GND    | GND             |
+| MOSI   | GPIO 23         |
+| MISO   | GPIO 19         |
+| SCK    | GPIO 18         |
+| CSN    | GPIO 5          |
+| GDO0   | GPIO 27         |
 
-| CC1101 | ESP32 Pin |
-|--------|-----------|
-| VCC    | 3.3V      |
-| GND    | GND       |
-| MOSI   | GPIO 13   |
-| MISO   | GPIO 12   |
-| SCK    | GPIO 14   |
-| CSN    | GPIO 15   |
-| GDO0   | GPIO 27   |
+### ESP32 (NodeMCU-32S) + SDHC Module (SPI)
 
-### ESP32 + SSD1306 (I2C)
+| SDHC Module | NodeMCU-32S Pin |
+|-------------|-----------------|
+| VCC         | 3.3V / 5V (check module) |
+| GND         | GND             |
+| MOSI        | GPIO 13         |
+| MISO        | GPIO 12         |
+| CLK / SCK   | GPIO 14         |
+| CS          | GPIO 25         |
 
-| SSD1306 | ESP32 Pin |
-|--------|-----------|
-| VCC    | 3.3V      |
-| GND    | GND       |
-| SDA    | GPIO 21   |
-| SCL    | GPIO 22   |
+### ESP32 (NodeMCU-32S) + SSD1306 (I2C)
 
-### ESP32 + SDHC Module (SPI)
+| SSD1306 | NodeMCU-32S Pin |
+|--------|-----------------|
+| VCC    | 3.3V            |
+| GND    | GND             |
+| SDA    | GPIO 21         |
+| SCL    | GPIO 22         |
 
-| SDHC Module | ESP32 Pin |
-|-------------|-----------|
-| VCC         | 3.3V / 5V |
-| GND         | GND       |
-| MOSI        | GPIO 13   |
-| MISO        | GPIO 12   |
-| CLK / SCK   | GPIO 14   |
-| CS          | GPIO 5    |
+### ESP32 (NodeMCU-32S) + Buttons
 
-### ESP32 + Buttons
-
-| Function | ESP32 Pin |
-|----------|-----------|
-| Up       | GPIO 18   |
-| Down     | GPIO 19   |
-| OK       | GPIO 17   |
-| Back     | GPIO 16   |
-
+| Function | NodeMCU-32S Pin |
+|----------|-----------------|
+| Up       | GPIO 33         |
+| Down     | GPIO 32         |
+| OK       | GPIO 15         |
+| Back     | GPIO 26         |
 ---
 
 ## 🛠️ Supported Tools
