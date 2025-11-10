@@ -119,6 +119,6 @@ This project is in active development. Contributions are welcome! Please open an
 
 ---
 
-## 📄 License
-
-This project is for educational purposes only. Use at your own risk.
+##Credits
+I would gladly appreciate if you credit me (@oscarpag) if you intend to include and/or modify parts of my project.
+Code and developement is done by @oscarpag, i am an amateour so errors may be included as i make strong use of Ai coding agents.
