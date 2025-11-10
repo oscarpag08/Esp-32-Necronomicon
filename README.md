@@ -1,7 +1,7 @@
 
 # ESP-32 Necronomicon
 
-An ESP32 multitool to mess with people, inspired by Futaba Sakura’s Persona.
+An ESP32 multitool to do kool stuff, inspired by Futaba Sakura’s Persona.
 
 ---
 
